@@ -28,7 +28,7 @@ const AddRecord = ({ auth, record: { doctorId, patientId } }: RootProps) => {
 
   const [diagnosis, setDiagnosis] = React.useState("Test Diagnosis");
   const [medication, setMedication] = React.useState("Test Medication");
-  const [fee, setFee] = React.useState("0");
+  const [fee, setFee] = React.useState("100");
   const [date, setDate] = React.useState(moment().format("YYYY-MM-DD"));
   const [time, setTime] = React.useState(moment().format("HH:mm"));
   const [followUp, setFollowUp] = React.useState(false);

@@ -1,5 +1,12 @@
 # clinic-app
 
+## Get Started:
+
+```
+npm install
+expo start
+```
+
 ## Expo
 https://expo.io/@fufung/projects/coolapp
 
